@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "polling",
     "blogging",
-    "rest_framework"
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -125,6 +125,6 @@ LOGIN_URL = "/login/"
 LOGIN_REDIRECT_URL = "/"
 
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'DEFAULT_SIZE': 10
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "DEFAULT_SIZE": 10,
 }
